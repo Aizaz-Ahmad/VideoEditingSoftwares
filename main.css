@@ -1,0 +1,284 @@
+#imgheader{
+    
+    max-height: 100%;
+    max-width: 100%;
+    border-bottom: 4px solid white;
+}
+body{
+    background-color: #3c0e36;
+   
+}
+h2{
+    color: white;
+    font-family: calibri;
+    text-align: center;
+}
+#shortli{
+    color:white;
+}
+#p1{
+    font-family: calibri;
+    font-weight: bolder;
+    font-size: 350%;
+    color: white;
+    width:100%;
+    word-spacing: 1px;
+    border: 2px solid white;
+    padding: 15px 0px 15px 0px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 6px;
+    text-shadow: 1px 1px 1px red;
+    text-align: center;
+    box-shadow: 1px 1px 6px 3px red;
+}
+#ratingspan{
+    color: white;
+    font-size: 13px;
+}
+#span1{
+    color: red;
+    text-shadow: 1px 1px 1px white;
+}
+#p3{
+    text-align: center;
+    font-family: calibri;
+    font-size: 30px;
+}
+#announcement{
+    color: white;
+    font-size:30px;
+}
+#imgmain{
+    margin-top: 40px;
+    color: white;
+}
+#b4link:link{
+    text-decoration: none;
+}
+
+#leftdiv{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-top:40px; 
+    float: left;
+    width: 18%;
+    border: 2px solid red;
+    max-height: 100%;
+    max-width: 100%;
+}
+#adobe{
+    margin-top:40px; 
+    float: left;
+    width: 20%;
+    border-top:2px solid red;
+    border-right:2px solid red;
+    border-bottom:2px solid red;
+     max-height: 100%;
+    max-width: 100%;
+}
+#short{
+            display: inline-block;
+            margin-left: 80px;
+    margin-bottom: 40px;
+        }
+#power{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top:40px; 
+    float: left;
+    width: 20%;
+    border-top:2px solid red;
+    border-right:2px solid red;
+    border-bottom:2px solid red;
+     max-height: 100%;
+    max-width: 100%;
+}
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
+#a1{
+    border-bottom: 2px solid white;
+    height: 190px;
+     
+}
+#bh1{
+    color: white;
+    text-shadow: 1px 1px 1px red;
+}
+#a2{
+    border-bottom: 2px solid white;
+}
+#a3{
+    border-bottom: 2px solid white;
+}
+#a4{
+    border-bottom: 2px solid white;
+}
+#a5{
+    border-bottom: 2px solid white;
+}
+#a6{
+    border-bottom: 2px solid white;
+    height: 121px;
+    padding-top: 21px;
+}
+#a7{
+    border-bottom: 2px solid white;
+    height: 101px;
+}
+#a8{
+    border-bottom: 2px solid white;
+    height: 104px;
+    padding-top:20px; 
+}
+#a9{
+    border-bottom: 2px solid white;
+    height: 139px;
+    padding-top: 25px;
+}
+#a10{
+    border-bottom: 2px solid white;
+}
+#a11{
+    border-bottom: 2px solid white;
+}
+#a13{
+    border-bottom: 2px solid white;
+}
+#a14{
+     border-bottom: 2px solid white;
+}
+#a15{
+    border-bottom: 2px solid white;
+}
+#b14{
+     border-bottom: 2px solid white;
+    height: 72px;
+    padding-left: 23px;
+    padding-top: 10px;
+}
+#b15{
+    border-bottom: 2px solid white;
+}
+#b16{
+    border-bottom: 2px solid white;
+    height: 61px;
+}
+#b13{
+    border-bottom: 2px solid white;
+}
+#b1{
+    border-bottom: 2px solid white;
+    
+}
+#b2{
+    border-bottom: 2px solid white;
+}
+
+#b3{
+    height: 102px;
+    border-bottom: 2px solid white;
+}
+#b4{
+    border-bottom: 2px solid white;
+}
+#b5{
+    border-bottom: 2px solid white;
+}
+#b6{
+    border-bottom: 2px solid white;
+}
+#b7{
+    border-bottom: 2px solid white;
+    height: 72px;
+    padding-left: 23px;
+    padding-top: 50px;
+}
+#b8{
+    border-bottom: 2px solid white;
+}
+#b9{
+    border-bottom: 2px solid white;
+}
+#b10{
+    border-bottom: 2px solid white;
+    height: 100px;
+}
+#b11{
+    border-bottom: 2px solid white;
+    height: 101px;
+    padding-top: 20px;
+}
+#a17{
+    height: 142.5px;
+    border-bottom: 2px solid white;
+}
+#b12{
+    height: 66px;
+    padding-top: 15px;
+
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-family: calibri;  
+    
+}
+#b17{
+    border-bottom: 2px solid white;
+}
+li{ 
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+}
+#logoh1{
+    padding-top: 35px;
+}
+#adobedescription{
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+}
+#adobereview{
+    color: white;
+    font-size: 18px;
+    font-family: calibri;
+}
+#descriptionlink{
+    color: skyblue;
+    text-decoration-color: white;
+}
+#pricelink{
+    font-weight: bold;
+     color: white;
+    font-family: calibri;
+    width:100%;
+    line-height: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-decoration-color:orange;
+}
+#imageslink{
+    font-weight: bold;
+     color: white;
+    font-family:arial;
+    width:100%;
+    line-height: 100%;
+    text-align: center;
+    font-size: 16px;
+    text-decoration-color:orange;
+}
+#downloadlink{
+    font-weight: bold;
+     color: white;
+    font-family: calibri;
+    width:100%;
+    line-height: 100%;
+    text-align: center;
+    font-size: 18px;
+    text-decoration-color:yellowgreen;
+}
+
