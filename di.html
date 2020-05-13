@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dividite</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="bttn.css">
+    <link rel="stylesheet" href="bootstrap-social.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="app">
+        <nav class="navbar navbar-expand-sm navbar-light shadow-lg border-bottom p-3">
+            <a class="navbar-brand ml-4 text-white text-uppercase" href="#">Dividite</a>
+            <button class="navbar-toggler d-lg-none border-0" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation"><i style="font-size: 30px;" class="fa fa-bars text-white" aria-hidden="true"></i></button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+               <div class="d-flex flex-sm-row flex-column main-links">
+                   <a href="#" class="float-right link">Home</a>
+                   <a href="#footer" class="link">Contact Us</a>
+                   <a href="#" class="link">About</a>
+                   <a href="#" class="link d-none d-md-block">log in</a>
+               </div>
+            </div>
+        </nav>
+        <div class="container-fluid top-container">
+            <div class="row intro">
+                <div class="col-12">
+                    <h1 class="main-head text-white">DIVIDITE</h1>
+                    <p class="lead font-weight-bold  text-white text-center mt-5 mt-sm-2 railway">PUCIT'S OWN RESOURCE SHARING PLATFORM</p>
+                    <p class="lead font-weight-bold  text-white text-center text-uppercase mt-3 railway" >Help your fellows by uploading content or use content by downloading it</p>
+                </div>
+            </div>
+            <div class="row justify-content-center d-none d-md-block">
+                <div class="col-md-7" style="width:100%;">
+                    <button class="bttn btn-block bttn-danger rounded bttn-lg bttn-unite mt-4" onclick="window.location.href = 'signup.html'">Sign Up to Become Part of Community</button>
+                </div>
+            </div>
+            <div class="row d-block d-md-none">
+                <div class="col-12 col-sm-10">
+                    <button class="bttn btn-block bttn-lg bttn-unite rounded bttn-danger" onclick="window.location.href = 'signup.html'">
+                        SIGN UP
+                    </button>
+                </div>
+                <div class="col-12 col-sm-10 mt-3">
+                    <button class="bttn btn-block bttn-lg rounded bttn-unite bttn-royal">
+                        LOG IN
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid stats-container mb-5" data-aos="fade-in">
+            <h1 class="text-center railway text-uppercase stats-head">Statistics</h1>
+            <div class="col-12 mt-5">
+                <ul>
+                <h1 class="text-uppercase ml-md-5 mt-4" data-aos="flip-up"><span class="count">300</span> Students are using this site</h1>
+                <h1 class="text-uppercase ml-md-5 mt-4" data-aos="flip-up"><span class="count">457</span> Times Students have downloaded content</h1>
+                <h1 class="text-uppercase ml-md-5 mt-4" data-aos="flip-up"><span class="count">457</span> Books have been uploaded</h1>
+                <h1 class="text-uppercase ml-md-5 mt-4" data-aos="flip-up"><span class="count">457</span> Lecture Notes have been uploaded</h1>
+            </ul>
+            </div>
+        </div>
+        <div class="container-fluid footer" id="footer">
+            <h1 class="p-5" style="letter-spacing:5px">DIVIDITE</h1>
+            <div class="row">
+        <div class="col-12 col-sm-6">
+            <p class="text-white text-center text-uppercase railway" style="font-size: 20px;">Contact Us</p>
+            <div class="row">
+                <div class="col-12 col-md-6">
+            <button type="button" class="btn btn-block btn-social-md btn-fb waves-effect"><i class="fa fa-facebook pr-1"></i> Facebook</button>
+        </div>
+        <div class="col-12 col-md-6">
+            <button type="button" class="btn btn-block btn-gplus waves-effect"><i class="fa fa-google pr-1"></i> Gmail</button>
+        </div>
+        </div>
+        </div>
+        <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+            <p class="text-white text-center text-uppercase railway" style="font-size: 20px;">Utilities </p>
+            <ul class="text-white">
+                <a href="" class="text-white nav-link"><li>Aggregate Calculator</li></a>
+                <a href="" class="text-white nav-link"><li>CGPA Calculator</li></a>
+                <a href="" class="text-white nav-link"><li>Entry Test Helping Material</li></a>
+            </ul>
+        </div>
+        </div>
+    </div>
+    <button class="btn btn-danger gotoTop-btn" style="display:none" onclick = "window.scrollTo(0,0)"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+    </div>
+</body>
+<script>
+    window.onscroll = ()=>{
+        if(window.scrollY > 300)
+            $('.gotoTop-btn').css('display','block')
+        else
+            $('.gotoTop-btn').css('display','none')
+    }
+    AOS.init();
+    let handler;
+   let i =  new Vue({
+        el: "#app",
+        mounted(){
+        },
+        data(){
+            return{
+
+            }
+        }
+    })
+</script>
+</html>
